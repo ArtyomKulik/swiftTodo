@@ -13,9 +13,12 @@ struct swiftTodoApp: App {
 
     var body: some Scene {
           WindowGroup {
-              NavigationStack {
-                  TodoList().environmentObject(todoService)
-              }
+             MainPage().environmentObject(todoService)
           }
       }
+}
+
+
+#Preview {
+    MainPage().environmentObject(TodoService())
 }

@@ -25,6 +25,3 @@ struct TodoList: View {
     }
 }
 
-//#Preview {
-//    TodoList(todos: [TodoItemModel])
-//}
